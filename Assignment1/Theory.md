@@ -79,6 +79,8 @@ In a framework, the code calls you.
 
 Git is a version control system that helps developers track changes in their code using commands like git add, save and revert to previous versions using commit IDs, and collaborate locally by sharing repositories using git clone.
 
+👉 Mostly useful when sharing via USB, LAN, or a common folder (not common now — GitHub is preferred for remote collaboration).
+
 git add → to track changes
 
 git commit → to save changes
