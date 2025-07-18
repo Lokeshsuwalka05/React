@@ -90,3 +90,6 @@ git checkout <commit-id> → to revert/view old versions
 git clone → to copy a repo for collaboration
 
 GitHub is a cloud-based platform that allows developers to store their Git repositories online, collaborate with others, and manage code using features like git push, git pull, and pull requests.
+
+Git = Microsoft Word (you write and save documents)
+GitHub = Google Drive (you upload & share those documents online)
