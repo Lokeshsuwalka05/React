@@ -73,3 +73,20 @@ In a framework, the code calls you.
 >Library is like ordering ingredients — you cook how you want.
 >Framework is like a recipe box and  — it tells you exactly how to cook.
 >Framework is the boss. It tells me where my code goes.
+
+
+## Q: Difference between Git and Github?
+
+Git is a version control system that helps developers track changes in their code using commands like git add, save and revert to previous versions using commit IDs, and collaborate locally by sharing repositories using git clone.
+
+git add → to track changes
+
+git commit → to save changes
+
+git log → to see history
+
+git checkout <commit-id> → to revert/view old versions
+
+git clone → to copy a repo for collaboration
+
+GitHub is a cloud-based platform that allows developers to store their Git repositories online, collaborate with others, and manage code using features like git push, git pull, and pull requests.
