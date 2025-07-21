@@ -61,7 +61,7 @@ function greeting(user) {
 A: 
 Functional and the class Component
 
-Functional Component:
+React Functional Component:
 - it is just a javascript function which returns the some piece of jsx or React Element.
 - Write FC in the capital Letter
 - Component compostion means put one or more component in a single component
