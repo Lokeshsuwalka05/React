@@ -16,7 +16,7 @@ const heading = React.createElement("h1", {}, "Hello World");
 
 JSX is just syntactic sugar for React.createElement, and it's easier to write and read.
 
-const heading = <h1>Hello World</h1>;
+const heading = `<h1>Hello World</h1>`;
 
 ### `“JSX is not mandatory in React, but it makes the code cleaner and more readable. Behind the scenes, JSX is compiled into React.createElement calls.”`
 
