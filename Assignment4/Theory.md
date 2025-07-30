@@ -105,7 +105,7 @@ return (
         </>
     );
 ```
-# Super Powers Of React
+#### Super Powers Of React
 - whenever a state variable changes React Rerender the component.
 - react is only good at doing DOM operations.
 - React makes the DOM Operation SuperFast.
@@ -231,7 +231,7 @@ A: Config Driven UI (Configuration-Driven User Interface) is a design approach i
 ## Q: Difference between `Virtual DOM` and `Real DOM`?
 
 A: 
-## 🧠 Virtual DOM vs Real DOM (in short)
+#### 🧠 Virtual DOM vs Real DOM (in short)
 
 | Feature       | Virtual DOM                                           | Real DOM                                        |
 |---------------|--------------------------------------------------------|-------------------------------------------------|
@@ -242,5 +242,5 @@ A:
 
 ---
 
-### 🔧 Summary:
+#### 🔧 Summary:
 > **Virtual DOM** is like a blueprint of the UI. React uses it to detect changes and updates the **Real DOM** efficiently, resulting in **faster performance** and a **better user experience**.
