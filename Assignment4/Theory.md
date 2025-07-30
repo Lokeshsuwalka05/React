@@ -4,13 +4,21 @@
 
 ## Q: Is `JSX` mandatory for React?
 
-A: `JSX` is an Extension Syntax that allows writing HTML and Javascript together easily in React and is used to create React elements. These elements are then rendered to the React DOM. Each JSX element is just to make use of React easy and for calling React.createElement(component, props, …children) with less work. So, anything that is done with JSX can also be done with just plain JavaScript. So `JSX` is not mandatory but is used for writing better and clean code instead of writing code using `React.CreateElement`.
+A: 
+- No, JSX is not mandatory in React — but it is highly recommended.
+- You can write React using pure JavaScript with React.createElement().
+
+#### Example without JSX:
+
+const heading = React.createElement("h1", {}, "Hello World");
 
 #### Example of `JSX`
 
-```
-const sample = <h2>Greetings</h2>;
-```
+JSX is just syntactic sugar for React.createElement, and it's easier to write and read.
+
+const heading = <h1>Hello World</h1>;
+
+### `“JSX is not mandatory in React, but it makes the code cleaner and more readable. Behind the scenes, JSX is compiled into React.createElement calls.”`
 
 ## Q: Is `ES6` mandatory for React?
 
@@ -166,3 +174,8 @@ A: DOM stands for `Document Object Model`, which represents your application UI 
 | Creates a new DOM if the element updates.                        | Update the JSX if the element update                     |
 | It allows us to directly target any specific node (HTML element) | It can produce about 200,000 Virtual DOM Nodes / Second. |
 | It represents the UI of your application                         | It is only a virtual representation of the DOM           |
+
+
+  Reconciliation algorithm(React Fiber)
+- Virtual DOM:-it is representation of actual DOM.
+ 
