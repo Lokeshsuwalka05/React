@@ -137,6 +137,7 @@ By akshay saini
 ...
 
   Super Power Of React:-
+  
 - whenever a state variable changes React Rerender the component.
 - react is only good at doing DOM operations.
 - React makes the DOM Operation SuperFast
